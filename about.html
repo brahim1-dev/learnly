@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Learnly</title>
+  <link rel="icon" type="image/png" href="./image/bra.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-950 text-white">
+  <header class="border-b border-white/10 bg-slate-950/95">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
+      <a href="index.html" class="text-2xl font-black tracking-tight">
+        Learn<span class="text-cyan-400">ly</span>
+      </a>
+
+      <button id="menuButton" class="rounded-lg p-2 text-2xl md:hidden">☰</button>
+
+      <div id="menu" class="hidden absolute left-0 top-20 w-full bg-slate-900 p-6 md:static md:flex md:w-auto md:items-center md:gap-8 md:bg-transparent md:p-0">
+        <a href="index.html" class="block py-2 text-slate-300 hover:text-cyan-400">Home</a>
+        <a href="about.html" class="block py-2 text-cyan-400">About</a>
+        <a href="courses.html" class="block py-2 text-slate-300 hover:text-cyan-400">Courses</a>
+        <a href="community.html" class="block py-2 text-slate-300 hover:text-cyan-400">Community</a>
+        <a href="projects.html" class="block py-2 text-slate-300 hover:text-cyan-400">Projects</a>
+        <a href="contact.html" class="mt-3 inline-block rounded-full bg-cyan-400 px-5 py-2 font-bold text-slate-950 hover:bg-cyan-300 md:mt-0">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="mx-auto grid max-w-7xl items-center gap-12 px-6 py-24 lg:grid-cols-2">
+      <div>
+        <p class="mb-4 font-semibold uppercase tracking-[0.3em] text-cyan-400">About Learnly</p>
+        <h1 class="text-5xl font-black leading-tight md:text-7xl">
+          Learn skills that move you forward.
+        </h1>
+        <p class="mt-6 max-w-xl text-lg leading-8 text-slate-400">
+          Learnly is a welcoming learning platform built for curious people.
+          We help students and creators learn practical skills, build real
+          projects, and grow together.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-4">
+          <a href="courses.html" class="rounded-full bg-cyan-400 px-6 py-3 font-bold text-slate-950 hover:bg-cyan-300">Explore Courses</a>
+          <a href="community.html" class="rounded-full border border-white/20 px-6 py-3 font-bold hover:bg-white/10">Join Community</a>
+        </div>
+      </div>
+
+      <div class="rounded-3xl border border-white/10 bg-gradient-to-br from-cyan-400/20 to-indigo-500/20 p-8">
+        <div class="rounded-2xl bg-slate-900 p-8 shadow-2xl">
+          <div class="mb-8 flex items-center justify-between">
+            <span class="text-4xl">🚀</span>
+            <span class="rounded-full bg-emerald-400/10 px-3 py-1 text-sm text-emerald-400">Growing together</span>
+          </div>
+          <h2 class="text-3xl font-bold">Your potential has no limit.</h2>
+          <p class="mt-4 text-slate-400">
+            Learn at your pace, practice with purpose, and connect with people
+            who are building the future.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white py-20 text-slate-950">
+      <div class="mx-auto max-w-7xl px-6">
+        <div class="max-w-2xl">
+          <p class="font-semibold uppercase tracking-[0.3em] text-cyan-600">Why Learnly?</p>
+          <h2 class="mt-3 text-4xl font-black md:text-5xl">Learning should feel exciting.</h2>
+        </div>
+
+        <div class="mt-12 grid gap-6 md:grid-cols-3">
+          <article class="rounded-2xl bg-slate-100 p-7">
+            <div class="text-4xl">🎯</div>
+            <h3 class="mt-5 text-xl font-bold">Practical learning</h3>
+            <p class="mt-3 text-slate-600">Build useful skills through clear lessons and real-world projects.</p>
+          </article>
+
+          <article class="rounded-2xl bg-slate-100 p-7">
+            <div class="text-4xl">🤝</div>
+            <h3 class="mt-5 text-xl font-bold">Friendly community</h3>
+            <p class="mt-3 text-slate-600">Ask questions, share ideas, and learn with supportive people.</p>
+          </article>
+
+          <article class="rounded-2xl bg-slate-100 p-7">
+            <div class="text-4xl">🌱</div>
+            <h3 class="mt-5 text-xl font-bold">Constant growth</h3>
+            <p class="mt-3 text-slate-600">Keep improving with resources designed for every experience level.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-7xl px-6 py-20 text-center">
+      <h2 class="text-4xl font-black">Ready to start learning?</h2>
+      <p class="mx-auto mt-4 max-w-xl text-slate-400">Choose a course, build a project, and become part of our community.</p>
+      <a href="courses.html" class="mt-8 inline-block rounded-full bg-cyan-400 px-7 py-3 font-bold text-slate-950 hover:bg-cyan-300">Get Started</a>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10 px-6 py-8 text-center text-slate-500">
+    © 2026 Learnly. Learn something amazing every day.
+  </footer>
+
+  <script>
+    document.getElementById("menuButton").addEventListener("click", () => {
+      document.getElementById("menu").classList.toggle("hidden");
+    });
+  </script>
+</body>
+</html>

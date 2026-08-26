@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Learnly</title>
+    <link rel="icon" type="image/png" href="./image/bra.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-950 text-white">
+    <header class="border-b border-white/10">
+        <nav class="mx-auto flex max-w-7xl items-center justify-between px-6 py-5"><a href="index.html"
+                class="text-2xl font-black">Learn<span class="text-cyan-400">ly</span></a>
+            <div class="hidden items-center gap-7 md:flex"><a href="index.html">Home</a><a href="about.html">About</a><a
+                    href="courses.html">Courses</a><a href="community.html">Community</a><a
+                    href="projects.html">Projects</a><a class="text-cyan-400" href="contact.html">Contact</a></div><a
+                class="md:hidden" href="index.html">← Home</a>
+        </nav>
+    </header>
+    <main class="mx-auto grid max-w-7xl gap-12 px-6 py-20 lg:grid-cols-2">
+        <div>
+            <p class="font-bold uppercase tracking-[.25em] text-cyan-400">Say hello</p>
+            <h1 class="mt-4 text-5xl font-black sm:text-6xl">Let’s make something great.</h1>
+            <p class="mt-6 max-w-lg text-lg leading-8 text-slate-400">Have a question about a course, an idea for a
+                project, or just want to say hi? We would love to hear from you.</p>
+            <div class="mt-10 space-y-5 text-slate-300">
+                <p>📧 <span class="ml-2">hello@learnly.example</span></p>
+                <p>🌍 <span class="ml-2">Learning from everywhere</span></p>
+                <p>⚡ <span class="ml-2">We usually reply within 24 hours</span></p>
+            </div>
+        </div>
+        <form id="contactForm" class="rounded-3xl border border-white/10 bg-white/5 p-7 shadow-2xl"><label
+                class="block text-sm font-semibold text-slate-300">Your name<input required type="text"
+                    class="mt-2 w-full rounded-xl border border-white/10 bg-slate-900 px-4 py-3 outline-none focus:border-cyan-400"></label><label
+                class="mt-5 block text-sm font-semibold text-slate-300">Email address<input required type="email"
+                    class="mt-2 w-full rounded-xl border border-white/10 bg-slate-900 px-4 py-3 outline-none focus:border-cyan-400"></label><label
+                class="mt-5 block text-sm font-semibold text-slate-300">Message<textarea required rows="5"
+                    class="mt-2 w-full resize-none rounded-xl border border-white/10 bg-slate-900 px-4 py-3 outline-none focus:border-cyan-400"></textarea></label><button
+                class="mt-6 w-full rounded-xl bg-cyan-400 py-3 font-bold text-slate-950 hover:bg-cyan-300">Send
+                message</button>
+            <p id="formMessage" class="mt-4 hidden rounded-xl bg-emerald-400/10 p-3 text-center text-emerald-300">
+                Thanks! Your message is ready to send.</p>
+        </form>
+    </main>
+    <footer class="border-t border-white/10 px-6 py-8 text-center text-slate-500">© 2026 Learnly · We are here to help.
+    </footer>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', event => {
+            event.preventDefault();
+            document.getElementById('formMessage').classList.remove('hidden');
+            event.target.reset();
+        });
+    </script>
+</body>
+
+</html>

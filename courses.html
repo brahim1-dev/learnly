@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses | Learnly</title>
+    <link rel="icon" type="image/png" href="./image/bra.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-950 text-white">
+    <header class="border-b border-white/10">
+        <nav class="mx-auto flex max-w-7xl items-center justify-between px-6 py-5"><a href="index.html"
+                class="text-2xl font-black">Learn<span class="text-cyan-400">ly</span></a><button id="menuButton"
+                class="p-2 text-2xl md:hidden">☰</button>
+            <div id="menu"
+                class="hidden absolute left-0 top-20 w-full space-y-2 bg-slate-900 p-6 md:static md:flex md:w-auto md:items-center md:gap-7 md:space-y-0 md:bg-transparent md:p-0">
+                <a href="index.html">Home</a><a href="about.html">About</a><a class="text-cyan-400"
+                    href="courses.html">Courses</a><a href="community.html">Community</a><a
+                    href="projects.html">Projects</a><a
+                    class="mt-3 block rounded-full bg-cyan-400 px-5 py-2 text-center font-bold text-slate-950 md:mt-0"
+                    href="contact.html">Contact</a></div>
+        </nav>
+    </header>
+    <main>
+        <section class="mx-auto max-w-7xl px-6 py-20">
+            <p class="font-bold uppercase tracking-[.25em] text-cyan-400">Learn by doing</p>
+            <h1 class="mt-4 max-w-3xl text-5xl font-black sm:text-6xl">Courses built for your next breakthrough.</h1>
+            <p class="mt-5 max-w-2xl text-lg text-slate-400">Clear lessons, practical exercises, and projects that turn
+                knowledge into confidence.</p>
+            <div class="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                <article class="rounded-3xl border border-white/10 bg-white/5 p-7 hover:border-cyan-400/50"><span
+                        class="text-4xl">🌐</span>
+                    <p class="mt-6 text-sm text-cyan-300">FRONTEND · BEGINNER</p>
+                    <h2 class="mt-2 text-2xl font-bold">HTML & Tailwind</h2>
+                    <p class="mt-3 text-slate-400">Create beautiful, responsive websites from the ground up.</p>
+                    <div class="mt-7 flex justify-between text-sm text-slate-500"><span>8 weeks</span><span>24
+                            lessons</span></div><a href="contact.html"
+                        class="mt-7 block rounded-xl bg-cyan-400 py-3 text-center font-bold text-slate-950">Join
+                        course</a>
+                </article>
+                <article class="rounded-3xl border border-white/10 bg-white/5 p-7 hover:border-violet-400/50"><span
+                        class="text-4xl">⚡</span>
+                    <p class="mt-6 text-sm text-violet-300">JAVASCRIPT · INTERMEDIATE</p>
+                    <h2 class="mt-2 text-2xl font-bold">JavaScript in Action</h2>
+                    <p class="mt-3 text-slate-400">Make your interfaces interactive with modern JavaScript.</p>
+                    <div class="mt-7 flex justify-between text-sm text-slate-500"><span>10 weeks</span><span>32
+                            lessons</span></div><a href="contact.html"
+                        class="mt-7 block rounded-xl bg-violet-400 py-3 text-center font-bold text-slate-950">Join
+                        course</a>
+                </article>
+                <article class="rounded-3xl border border-white/10 bg-white/5 p-7 hover:border-emerald-400/50"><span
+                        class="text-4xl">🧠</span>
+                    <p class="mt-6 text-sm text-emerald-300">BACKEND · ADVANCED</p>
+                    <h2 class="mt-2 text-2xl font-bold">Node & APIs</h2>
+                    <p class="mt-3 text-slate-400">Build reliable servers, APIs, and full-stack applications.</p>
+                    <div class="mt-7 flex justify-between text-sm text-slate-500"><span>12 weeks</span><span>36
+                            lessons</span></div><a href="contact.html"
+                        class="mt-7 block rounded-xl bg-emerald-400 py-3 text-center font-bold text-slate-950">Join
+                        course</a>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="border-t border-white/10 px-6 py-8 text-center text-slate-500">© 2026 Learnly · Learn something
+        amazing every day.</footer>
+    <script>
+        document.getElementById('menuButton').addEventListener('click', () => document.getElementById('menu').classList
+            .toggle('hidden'));
+    </script>
+</body>
+
+</html>

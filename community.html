@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community | Learnly</title>
+    <link rel="icon" type="image/png" href="./image/bra.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-950 text-white">
+    <header class="border-b border-white/10">
+        <nav class="mx-auto flex max-w-7xl items-center justify-between px-6 py-5"><a href="index.html"
+                class="text-2xl font-black">Learn<span class="text-cyan-400">ly</span></a><button id="menuButton"
+                class="p-2 text-2xl md:hidden">☰</button>
+            <div id="menu"
+                class="hidden absolute left-0 top-20 w-full space-y-2 bg-slate-900 p-6 md:static md:flex md:w-auto md:items-center md:gap-7 md:space-y-0 md:bg-transparent md:p-0">
+                <a href="index.html">Home</a><a href="about.html">About</a><a href="courses.html">Courses</a><a
+                    class="text-cyan-400" href="community.html">Community</a><a href="projects.html">Projects</a><a
+                    class="mt-3 block rounded-full bg-cyan-400 px-5 py-2 text-center font-bold text-slate-950 md:mt-0"
+                    href="contact.html">Contact</a></div>
+        </nav>
+    </header>
+    <main>
+        <section class="mx-auto max-w-7xl px-6 py-20">
+            <div class="max-w-3xl">
+                <p class="font-bold uppercase tracking-[.25em] text-cyan-400">You belong here</p>
+                <h1 class="mt-4 text-5xl font-black sm:text-6xl">Better together, always.</h1>
+                <p class="mt-6 text-lg leading-8 text-slate-400">Learning is more fun when you have people to celebrate
+                    the wins, answer the tricky questions, and keep you moving.</p><a href="contact.html"
+                    class="mt-8 inline-block rounded-full bg-cyan-400 px-7 py-3 font-bold text-slate-950">Meet the
+                    community →</a>
+            </div>
+            <div class="mt-16 grid gap-6 md:grid-cols-3">
+                <div class="rounded-3xl bg-white/5 p-7">
+                    <p class="text-4xl">💬</p>
+                    <h2 class="mt-6 text-2xl font-bold">Ask anything</h2>
+                    <p class="mt-3 text-slate-400">No question is too small. Get friendly help from learners and
+                        mentors.</p>
+                </div>
+                <div class="rounded-3xl bg-white/5 p-7">
+                    <p class="text-4xl">🏆</p>
+                    <h2 class="mt-6 text-2xl font-bold">Share your wins</h2>
+                    <p class="mt-3 text-slate-400">Show your latest project and inspire someone else to start building.
+                    </p>
+                </div>
+                <div class="rounded-3xl bg-white/5 p-7">
+                    <p class="text-4xl">🤝</p>
+                    <h2 class="mt-6 text-2xl font-bold">Find a study buddy</h2>
+                    <p class="mt-3 text-slate-400">Meet people with similar goals and make progress together.</p>
+                </div>
+            </div>
+        </section>
+        <section class="bg-white py-16 text-slate-950">
+            <div class="mx-auto max-w-5xl px-6 text-center">
+                <p class="text-5xl">🌟 🚀 💡 🎨</p>
+                <h2 class="mt-6 text-4xl font-black">Your people are waiting.</h2>
+                <p class="mx-auto mt-4 max-w-xl text-slate-600">Start with a course, bring your questions, and leave
+                    with new friends.</p>
+            </div>
+        </section>
+    </main>
+    <footer class="border-t border-white/10 px-6 py-8 text-center text-slate-500">© 2026 Learnly · Built together.
+    </footer>
+    <script>
+        document.getElementById('menuButton').addEventListener('click', () => document.getElementById('menu').classList
+            .toggle('hidden'));
+    </script>
+</body>
+
+</html>
