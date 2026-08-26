@@ -6,6 +6,14 @@ Learnly is a polished, responsive learning platform landing site for curious peo
 
 The project is intentionally lightweight: it is made from plain HTML and uses Tailwind CSS through the browser CDN. There is no build pipeline, framework, package manager, or backend to configure.
 
+<p align="center">
+	<a href="https://github.com/brahim1-dev/learnly">
+		<img src="./image/logo.png" alt="Open the Learnly project on GitHub" width="180">
+	</a>
+</p>
+
+<p align="center"><strong>Click the Learnly preview above to open the project.</strong></p>
+
 ## What is included
 
 - **Home** - A welcoming overview of the Learnly learning journey
@@ -40,7 +48,7 @@ From there, visitors can move through the learning funnel:
 ├── projects.html       # Learner project showcase
 ├── contact.html        # Contact form
 ├── image/
-│   ├── br m.png        # Local image asset
+│   ├── bra.png         # Local image asset
 │   └── logo.png        # Local image asset
 └── README.md
 ```
@@ -91,3 +99,4 @@ No license has been specified for this project yet. Add a license file before di
 ---
 
 Made for curious minds by Learnly.
+https://github/brahim1-dev.
