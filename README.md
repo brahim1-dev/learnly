@@ -8,7 +8,7 @@ The project is intentionally lightweight: it is made from plain HTML and uses Ta
 
 <p align="center">
 	<a href="https://github.com/brahim1-dev/learnly">
-		<img src="./image/learnly.png" alt="Open the Learnly project on GitHub" width="180">
+		<img src="./image/learnly.png" alt="Open the Learnly project on GitHub" width="100">
 	</a>
 </p>
 
