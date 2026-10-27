@@ -1,6 +1,6 @@
 # Learnly
 
-## look here leenly.netlify.app
+## look here https://baroh.netlify.app/
 > Learn. Build. Belong.
 
 Learnly is a polished, responsive learning platform landing site for curious people who want to learn practical web-development skills, build portfolio projects, and grow with a supportive community.
